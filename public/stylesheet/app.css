@@ -1,0 +1,21 @@
+body{
+   
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.ui.text.container{
+    margin-top: 7em;
+}
+
+i {
+   font-size: 4em;
+}
+
+.container {
+    margin-top: 2em;
+}
+#delete
+{
+    display: inline;
+}

@@ -1,0 +1,17 @@
+<% include ./partials/header %>
+<div class="ui main text container segment">
+  
+<form class="ui form" action="/blogs/login" method="POST">
+  <h1>Login</h1>
+    <div class="field">
+      <label>Email</label>
+      <input type="text" name="username" placeholder="Email">
+    </div>
+    <div class="field">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Password">
+      </div>
+    <button class="ui button" type="submit">Submit</button>
+  </form>
+</div>
+<% include ./partials/footer %>
